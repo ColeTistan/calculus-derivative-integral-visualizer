@@ -21,12 +21,9 @@ select_box = st.selectbox(
     options
 )
 
-st.write('You selected:', select_box)
-
 if select_box == 'Derivative':
     # Use sympy.diff() method to differentiate expression
     dif = sp.diff(user_input, x)
-
     st.latex("Differentiation")
     st.latex(dif)
 else:
