@@ -4,6 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+streamlit = "*"
+sympy = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.9"
